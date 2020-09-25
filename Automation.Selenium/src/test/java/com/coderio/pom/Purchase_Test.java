@@ -48,7 +48,6 @@ public class Purchase_Test {
 	@Test
 	public void test() throws InterruptedException, IOException {
 		//Get variables from Excel
-		//		String filepath = "C:\\Users\\Administrator\\Desktop\\CoderioExcel_Test.xlsx";
 		String filepath = System.getProperty("user.dir")+"\\CoderioExcel_Test.xlsx";
 		String userToLog = readFile.getCellValueAsString(filepath, "Sheet1", 0, 0);
 		String name = readFile.getCellValueAsString(filepath, "Sheet2", 0, 0);
